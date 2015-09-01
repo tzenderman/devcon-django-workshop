@@ -1,4 +1,6 @@
-# devcon-django-workshop
+# Taller de Django!
+
+En este taller, creamos nuestro propio blog en Django. Para ver más sobre el evento: http://devconchile.org/
 
 ## Configuración
 
@@ -16,10 +18,10 @@ Ahora, instalemos los requirements del proyecto:
 
 Corramos las migrations:
 
-    (venv) $ ./manage.py 
+    (venv) $ ./manage.py migrate
 
 ## Development Server
 
     (venv) $ ./manage.yp runserver 8000
 
-Listo! Ahi podrás abrir http://localhost:8000/ para ver nuestra aplicación web!
+Listo! Ahi podrás abrir http://localhost:8000/ para ver nuestro blog!
